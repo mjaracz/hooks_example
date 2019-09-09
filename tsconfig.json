@@ -10,14 +10,20 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "strict": true
+  },
+  "rules": {
+    "allow-ternary": true,
+    "no-unused-expression": false,
+    "arrow-callback-return": false
   },
   "include": [
     "src"
